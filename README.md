@@ -1,1 +1,6 @@
 # AI-website-Bulider
+
+- [x] **AI brief-to-website generation** — Users can describe the website they want in natural language, including the site's audience, goals, and requirements. The system interprets the brief and generates a complete website structure with a coherent page hierarchy and sections, website copy tailored to the brief, and a visual layout including typography, colors, imagery placements, and reusable interface elements.
+- [x] **Rendered, responsive website preview** — Users can inspect the generated website in an interactive rendered preview and switch the preview between desktop, tablet, and mobile modes. The generated page structure and its sections are available in a readable structure view, and navigation links in the preview can switch between the generated pages.
+- [x] **Conversational refinements and retained project revisions** — Users can request targeted changes conversationally and regenerate the preview. The project workspace keeps the original brief, the generated result, and the latest revisions together, and users can return to a saved revision.
+- [x] **Protected AI request surface** — The browser never receives the platform API credential; the server accepts bounded JSON generation requests, rejects cross-site browser requests, and applies an 8-request-per-client/15-minute and 60-request-per-server/hour limit.
