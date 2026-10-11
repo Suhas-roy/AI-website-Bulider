@@ -1,0 +1,14 @@
+{
+  "name": "sitegen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitecraft — an AI website generation studio",
+  "packageManager": "npm@10.9.2",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  }
+}
